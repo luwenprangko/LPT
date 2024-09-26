@@ -1,0 +1,16 @@
+/* Initially hide the paragraph */
+#hiddenParagraph {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+/* Countdown styling */
+#countdown {
+    font-size: 2em;
+    color: #ff0000;
+}
+
+.fs-size {
+  font-size: 22px !important;
+}

@@ -1,0 +1,17 @@
+/* Default styles (for mobile) */
+.container-6 {
+    width: 100%;
+    padding: 0 15px; /* Optional: Add padding to ensure the container has some space */
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  /* Styles for desktop (screens wider than 768px) */
+  @media (min-width: 600px) {
+    .container-6 {
+      max-width: 600px;
+      width: 100%; /* Ensure the container doesn't exceed 600px */
+      margin: 0 auto; /* Center the container */
+    }
+  }
+  
